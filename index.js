@@ -28,3 +28,17 @@ var countDown = setInterval(() => {
 	    document.getElementById("end").innerHTML = "Finally :)";
 	}
 }, 1000);
+
+function btnHandler(){
+	let degrees = document.getElementById('degreeInput').value;
+	
+	if(document.getElementById('cDegree').checked == true) {   
+		   degrees = Math.round((degrees * 1.8) + 32); 
+		   document.getElementById("degValue").innerHTML = "Degrees: " + degrees + "F"; 
+  	} else {  
+		   degrees = Math.round((degrees - 32) / 1.8);
+		   document.getElementById("degValue").innerHTML = "Degrees: " + degrees + "C";   
+  	}
+	
+
+  }

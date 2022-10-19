@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background-color: #c0cfb2;
+	background-color: #8ba888;
 	color: #44624a;
 }
 
@@ -17,4 +17,10 @@ p {
 	width: 100%;
 	height: 30px;
 	border-radius: 15px;
+}
+
+#tempBox {
+	background-color: #c0cfb2;
+	border-radius: 15px;
+	padding-bottom: 10px;
 }
