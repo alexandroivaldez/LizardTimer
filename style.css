@@ -19,12 +19,14 @@ body {
 }
 
 #coffee-splash2 {
-	position: absolute;
+	position: relative;
 	width: 100%;
 	height: 60vw;
 	left: 0px;
 	top: 0px;
 	background: url(coffee-splash2.jpg);
+	background-size: 100%;
+
 }
 
 
@@ -47,7 +49,7 @@ position: absolute;
 width: 38px;
 height: 30px;
 left: 219px;
-top: 230px;
+top: 80%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -65,7 +67,7 @@ position: absolute;
 width: 38px;
 height: 30px;
 left: 262px;
-top: 230px;
+top: 80%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -83,7 +85,7 @@ position: absolute;
 width: 43px;
 height: 30px;
 left: 302px;
-top: 230px;
+top: 80%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -100,8 +102,8 @@ color: #FFFFFF;
 position: absolute;
 width: 43px;
 height: 30px;
-left: 347px;
-top: 230px;
+left: 337px;
+top: 80%;
 
 font-family: 'Inter';
 font-style: normal;
